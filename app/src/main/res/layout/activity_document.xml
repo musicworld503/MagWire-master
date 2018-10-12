@@ -41,14 +41,7 @@
         </LinearLayout>
 
         <EditText
-            android:id="@+id/doc_title"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:gravity="top"
-            android:layout_weight="1"/>
-
-        <EditText
-            android:id="@+id/doc_content"
+            android:id="@+id/inputText"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:gravity="bottom"
