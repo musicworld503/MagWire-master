@@ -23,21 +23,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="save"/>
+                android:text="저장"/>
 
             <Button
                 android:id="@+id/load"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="load"/>
+                android:text="기존 문서 보기"/>
 
             <Button
                 android:id="@+id/delete"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="delete"/>
+                android:text="현재 문서 삭제"/>
         </LinearLayout>
 
         <EditText
@@ -45,7 +45,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:gravity="bottom"
-            android:layout_weight="9"/>
+            android:layout_weight="9"
+            android:layout_gravity="top"/>
 
 
     </LinearLayout>

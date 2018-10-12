@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button bnd = (Button)findViewById(R.id.btn_new_doc);
+        Button bnd = (Button) findViewById(R.id.btn_new_doc);
 
         bnd.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        Button bm = (Button)findViewById(R.id.btn_BM_1);
+        Button bm = (Button) findViewById(R.id.btn_BM_1);
 
         bm.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +31,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), BookmarkActivity.class);
                 startActivity(intent);
 
+            }
+        });
+
+        Button bs1 = (Button) findViewById(R.id.btn_search_1);
+        bs1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SearchActivity.class);
+                startActivity(intent);
             }
         });
 
