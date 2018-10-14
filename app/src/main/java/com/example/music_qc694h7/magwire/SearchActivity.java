@@ -112,13 +112,13 @@ public class SearchActivity extends AppCompatActivity {
         String docadd = doc.filename;
     // 검색에 사용될 데이터를 리스트에 추가한다.
     private void settingList(){
-        list.add("수지");
-        list.add("손나은");
-        list.add("남주혁");
-        list.add("슬기");
-        list.add("설리");
-        list.add("창모");
-        list.add(docadd);
+        list.add("King@movie");
+        list.add("Queen");
+        list.add("Junior");
+        list.add("Venom");
+        list.add("Hex");
+        list.add("SpiderMan@movie");
+        list.add("Burning@movie");
     }
 }
 
