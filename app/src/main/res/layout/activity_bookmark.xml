@@ -16,23 +16,26 @@
         <Button
             android:id="@+id/btn_search_3"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="검색"/>
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="검색" />
 
         <Button
             android:id="@+id/btn_home_3"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="홈"/>
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="홈" />
 
         <Button
             android:id="@+id/btn_BM_3"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="북마크"/>
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="북마크" />
 
     </LinearLayout>
 
@@ -43,9 +46,8 @@
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark">
 
 
         </ListView>

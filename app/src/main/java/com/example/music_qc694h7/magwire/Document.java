@@ -26,10 +26,6 @@ public class Document extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
-
-
-
         setContentView(R.layout.activity_document);
         load = (Button) findViewById(R.id.load);
 
@@ -108,6 +104,8 @@ public class Document extends AppCompatActivity {
             try{ if(fos != null) fos.close(); }catch(Exception e){e.printStackTrace();}
 
         }
+
+    }
 
 
 
@@ -296,9 +294,5 @@ public class Document extends AppCompatActivity {
             }
 
         }
-        };
-    }
-
-
-
-
+    };
+}
