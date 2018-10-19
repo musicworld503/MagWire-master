@@ -67,7 +67,7 @@ public class SearchAdapter extends BaseAdapter {
     }
 
 
-    public List<String> getList( ) {
+    public List<String> getList() {
         return list;
     }
 

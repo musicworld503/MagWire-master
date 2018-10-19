@@ -17,23 +17,26 @@
         <Button
             android:id="@+id/btn_search_2"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="검색"/>
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="검색" />
 
         <Button
             android:id="@+id/btn_home_2"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="홈"/>
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="홈" />
 
         <Button
             android:id="@+id/btn_BM_2"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="북마크"/>
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="북마크" />
 
     </LinearLayout>
 
@@ -46,16 +49,19 @@
         <EditText
             android:id="@+id/editSearch"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="검색어를 입력하세요."/>
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:hint="검색어를 입력하세요." />
 
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:background="@color/colorPrimaryDark"
             android:divider="#999999"
-            android:dividerHeight="1dp">
-        </ListView>
+            android:dividerHeight="1dp"></ListView>
     </LinearLayout>
 
 
