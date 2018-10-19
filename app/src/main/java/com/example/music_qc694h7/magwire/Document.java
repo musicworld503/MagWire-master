@@ -47,7 +47,7 @@ public class Document extends AppCompatActivity {
 
     }
 
-    public String filename;
+    public   String filename;
 
     public void load(String filename){
 
